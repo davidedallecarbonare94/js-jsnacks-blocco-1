@@ -62,10 +62,11 @@ console.log(sum);
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 var userEmail = prompt("Scopri subito se puoi partecipare alla festa inserendo il tuo nome!");
 var invitedUsers = ["Davide", "Alessandra", "Miranda", "Franco", "Nicol Bolas"];
-
 var invited = false;
 var message;
-for (var i = 0; i = invitedUsers.length; i++){
+
+
+for (var i = 0; i < invitedUsers.length; i++) {
     var insertName = invitedUsers[i];
     if (insertName == userEmail) {
         invited = true;
@@ -73,7 +74,7 @@ for (var i = 0; i = invitedUsers.length; i++){
 }
 
 if (invited) {
-    message = "Benvenuto alla festa del grande Gatsby";
+    alert("Benvenuto alla festa del grande Gatsby");
 } else {
-    message = "Non sei ben accetto alla festa del Grande Gatsby"
+    alert("Non sei ben accetto alla festa del Grande Gatsby");
 }
