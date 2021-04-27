@@ -1,4 +1,4 @@
-// l'utente inserisce due numeri in success con prompt
+/* // l'utente inserisce due numeri in success con prompt
 
 var number_1 = Number(prompt("Inserisci un numero"));
 var number_2 = Number(prompt("Inserisci un nuovo numero"));
@@ -12,9 +12,9 @@ if (number_1 === number_2) {
 } else {
     console.log(number_2);
 }
+ */
 
-
-//Snack 2:
+/* //Snack 2:
 
 //L’utente inserisce due parole in successione, con due prompt.
 var word_1 = prompt("Inserisci una parola");
@@ -26,3 +26,20 @@ if (word_1.length > word_2.length) {
 } else if (word_2.length > word_1.length) {
     console.log(word_1, word_2)
 } else console.log("Pari")
+ */
+//Snack 3:
+//Il software deve chiedere per 10 volte all’utente di inserire un numero.
+var number_10 = Number(prompt("Insert a number"));
+var number_11 = Number(prompt("Insert a number"));
+var number_12 = Number(prompt("Insert a number"));
+var number_13 = Number(prompt("Insert a number"));
+var number_14 = Number(prompt("Insert a number"));
+var number_15 = Number(prompt("Insert a number"));
+var number_16 = Number(prompt("Insert a number"));
+var number_17 = Number(prompt("Insert a number"));
+var number_18 = Number(prompt("Insert a number"));
+var number_19 = Number(prompt("Insert a number"));
+
+var total = number_10 + number_11 + number_12 + number_13 + number_14 + number_15 + number_16 + number_17 + number_18 + number_19;
+console.log(total)
+//Il programma stampa la somma di tutti i numeri inseriti. 
