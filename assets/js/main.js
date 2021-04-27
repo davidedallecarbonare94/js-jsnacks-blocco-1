@@ -47,7 +47,7 @@ var number_19 = Number(prompt("Insert a number"));
 var total = number_10 + number_11 + number_12 + number_13 + number_14 + number_15 + number_16 + number_17 + number_18 + number_19;
 console.log(total)
 
-// correzione
+// correzione //
 
 var number_10 = Number(prompt("Insert a number"));
 var sum = 0;
@@ -56,9 +56,10 @@ for (var i = 0; i < 10; i++){
     sum += user_number
 }
 console.log(sum);
+// fine correzione//
  */
 
-// Snack 4:
+/* // Snack 4:
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 var userEmail = prompt("Scopri subito se puoi partecipare alla festa inserendo il tuo nome!");
 var invitedUsers = ["Davide", "Alessandra", "Miranda", "Franco", "Nicol Bolas"];
@@ -78,3 +79,18 @@ if (invited) {
 } else {
     alert("Non sei ben accetto alla festa del Grande Gatsby");
 }
+ */
+//Snack 5:
+//Crea un array vuoto.
+var odd = []
+
+//Chiedi per 6 volte all’utente di inserire un numero,
+    
+for (var i = 0; i < 6; i++) {
+    var user_number = Number(prompt("Insert a number"));
+    if (user_number % 2 == 1) {
+        odd.push(user_number)
+    }
+}
+console.log(odd);
+//se è dispari inseriscilo nell’array.
